@@ -1,0 +1,28 @@
+{
+  "name": "unix-shell-toolkit",
+  "version": "1.0.0",
+  "description": "Basic Shell Abstraction API & Related Tools",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.sazze.com:nodejs/shell-toolkit.git"
+  },
+  "keywords": [
+    "shell",
+    "unix"
+  ],
+  "author": "Adam Jaso <ajaso@sazze.com>",
+  "license": "ISC",
+  "dependencies": {
+    "co": "git+https://github.com/sazze/co.git",
+    "lodash": "^3.10.1",
+    "scp2": "^0.2.2",
+    "semver": "^5.0.3",
+    "simple-git": "^1.11.0",
+    "sz-rc-client": "^1.1.0"
+  },
+  "private": true
+}
