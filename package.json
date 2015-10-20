@@ -1,5 +1,5 @@
 {
-  "name": "unix-shell-toolkit",
+  "name": "shell-toolkit",
   "version": "1.0.0",
   "description": "Basic Shell Abstraction API & Related Tools",
   "main": "lib/index.js",
