@@ -1,29 +1,40 @@
 {
   "name": "shell-toolkit",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Basic Shell Abstraction API & Related Tools",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "engines": {
+    "node": ">=4.2.x"
+  },
   "repository": {
     "type": "git",
-    "url": "git@gitlab.sazze.com:nodejs/shell-toolkit.git"
+    "url": "git@github.com:sazze/node-shell-toolkit.git"
   },
   "keywords": [
     "shell",
     "unix"
   ],
+  "bugs": {
+    "url": "https://github.com/sazze/node-shell-toolkit/issues"
+  },
   "author": "Adam Jaso <ajaso@sazze.com>",
+  "maintainers": [
+    "Craig Thayer <cthayer@sazze.com>"
+  ],
+  "contributors": [
+    "Craig Thayer <cthayer@sazze.com>"
+  ],
   "license": "ISC",
   "dependencies": {
+    "@sazze/rc-client": "^1.2.1",
     "co": "git+https://github.com/sazze/co.git",
     "lodash": "^3.10.1",
     "scp2": "^0.2.2",
     "semver": "^5.0.3",
     "simple-git": "^1.11.0",
-    "simple-ssh": "^0.8.6",
-    "sz-rc-client": "^1.1.0"
-  },
-  "private": true
+    "simple-ssh": "^0.8.6"
+  }
 }
