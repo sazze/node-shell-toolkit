@@ -17,13 +17,13 @@
   "author": "Adam Jaso <ajaso@sazze.com>",
   "license": "ISC",
   "dependencies": {
+    "@sazze/rc-client": "^1.2.1",
     "co": "git+https://github.com/sazze/co.git",
     "lodash": "^3.10.1",
     "scp2": "^0.2.2",
     "semver": "^5.0.3",
     "simple-git": "^1.11.0",
-    "simple-ssh": "^0.8.6",
-    "sz-rc-client": "^1.1.0"
+    "simple-ssh": "^0.8.6"
   },
   "private": true
 }
